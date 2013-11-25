@@ -1,0 +1,30 @@
+{% extends '::base.html.twig' %}
+{% block stylesheets %}
+<link href="{{asset ('bundles/jazzyspaceaulasmentoralimentos/css/estilo.css')}}"
+        type="text/css" rel="stylesheet" />
+{% endblock %}
+{% block body %}
+<div id="cabecera">
+    <h1>Informacion de Alimentos</h1>
+</div>
+
+<div id"menu">
+    <hr/>
+    <a href="{{path('JAMAB_homepage')}}">inicio</a> |
+    <a href="#">ver alimentos</a> |
+    <a href="#">insertar alimentos</a> |
+    <a href="#">buscar por nombre</a> |
+    <a href="#">buscar por energia</a> |
+    <a href="#">busqueda combinada</a> |
+    </hr>
+</div>
+<div id="contenedor">
+    {% block contenido %}
+    {% endblock %}
+</div>
+
+<div id="pie">
+<hr/>
+<div align="center">- pie de pagina -</div>
+</div>
+{% endblock %}

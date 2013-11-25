@@ -1,0 +1,8 @@
+zgz_aulas_mentor_ejercicio:
+    resource: "@ZgzAulasMentorEjercicioBundle/Resources/config/routing.yml"
+    prefix:   /
+
+jazzy_space_aulas_mentor_alimentos:
+    resource: "@JazzySpaceAulasMentorAlimentosBundle/Resources/config/routing.yml"
+    prefix:   /alimentos
+

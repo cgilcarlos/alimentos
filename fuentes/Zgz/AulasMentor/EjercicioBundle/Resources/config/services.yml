@@ -1,0 +1,7 @@
+parameters:
+#    zgz_aulas_mentor_ejercicio.example.class: Zgz\AulasMentor\EjercicioBundle\Example
+
+services:
+#    zgz_aulas_mentor_ejercicio.example:
+#        class: %zgz_aulas_mentor_ejercicio.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

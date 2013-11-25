@@ -1,0 +1,3 @@
+JAMAB_homepage:
+    pattern:  /alimentos}
+    defaults: { _controller: JazzySpaceAulasMentorAlimentosBundle:Default:index }

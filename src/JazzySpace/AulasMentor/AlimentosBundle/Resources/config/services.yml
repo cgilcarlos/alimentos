@@ -1,0 +1,7 @@
+parameters:
+#    jazzy_space_aulas_mentor_alimentos.example.class: JazzySpace\AulasMentor\AlimentosBundle\Example
+
+services:
+#    jazzy_space_aulas_mentor_alimentos.example:
+#        class: %jazzy_space_aulas_mentor_alimentos.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

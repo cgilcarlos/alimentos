@@ -1,0 +1,7 @@
+zame_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: ZgzAulasMentorEjercicioBundle:Default:index }
+
+zame_pruebas:
+    pattern:  /pruebas}
+    defaults { _controller: ZgzAulasMentorEjercicioBundle:Default:indexpruebas }
